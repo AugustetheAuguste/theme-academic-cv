@@ -2,115 +2,131 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Auguste Doyet
+  given: Auguste
+  family: Doyet
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+postnominals: []
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: ''
+role: Etudiant Data & IA (UQAC & Efrei)
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Etudiant en double diplome UQAC / Efrei, specialise en IA appliquee. Je construis des
+  prototypes concrets en vision par ordinateur, reinforcement learning et LLM/RAG pour
+  apporter des preuves rapides et actionnables.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Universite du Quebec a Chicoutimi (UQAC)
+    url: https://www.uqac.ca/
+  - name: Efrei Paris
+    url: https://www.efrei.fr/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: mailto:auguste.doyet@efrei.net
+    label: Email
 
 interests:
-  - Large Language Models
-  - Computer Vision
+  - Vision par ordinateur
   - Reinforcement Learning
-  - AI Ethics
+  - LLM / RAG
+  - Audio et NLP
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: Maitrise en Informatique (IA) - double diplome
+    institution: Universite du Quebec a Chicoutimi (UQAC)
+    start: 2024-09-01
+    end: ''
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Parcours intensif oriente IA appliquee : deep learning, vision, reinforcement learning,
+      LLM/RAG et experimentation avancee.
+  - degree: Master Data et IA
+    institution: Efrei Paris
+    start: 2020-09-01
+    end: 2024-09-01
+    summary: |
+      Formation ingenieur avec socle logiciel, data science et IA. Projets en traitement de
+      donnees, machine learning et MLOps.
+  - degree: Semestre international
+    institution: Asia Pacific University (Malaisie)
+    start: 2022-01-01
+    end: 2022-06-30
+    summary: |
+      Mobilite internationale en anglais : travail en equipe multiculturelle, autonomie et
+      communication.
+  - degree: Baccalaureat OIB section americaine - mention Tres Bien
+    institution: Lycee International L'Ermitage
+    start: 2019-09-01
+    end: 2020-06-30
+    summary: |
+      Programme bilingue exigeant, culture academique internationale et rigueur.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Co-fondateur et lead produit IA
+    org: FALC'On
+    start: 2021-01-01
+    end: 2024-06-30
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Logiciel de traduction automatique oriente accessibilite (FALC). Definition produit,
+      prototypage IA, coordination avec partenaires et demos clients.
+  - role: Ambassadeur et intervenant
+    org: Efrei Paris
+    start: 2021-09-01
+    end: 2024-06-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Presentations publiques, ateliers d'initiation IA/data pour lyceens, accompagnement
+      admissions et vulgarisation technique.
+  - role: Stagiaire
+    org: Westline Entreprise
+    start: 2021-06-01
+    end: 2021-08-31
+    summary: |
+      Immersion en robotique/optoelectronique, respect des process qualite et documentation
+      technique pour l'equipe.
+  - role: Prof particulier
+    org: Cours particuliers
+    start: 2018-09-01
+    end: 2024-06-30
+    summary: |
+      Preparation bac et concours (maths/physique). Creation de supports, vulgarisation et
+      suivi individuel.
 
 skills:
-  - name: Technical Skills
+  - name: IA et Data
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: PyTorch / TensorFlow
         level: 4
-  - name: Research & Communication
+      - label: LangChain / RAG
+        level: 4
+      - label: OpenCV
+        level: 4
+  - name: Domaines
     items:
-      - label: Academic Writing
+      - label: Vision par ordinateur
         level: 5
-      - label: Conference Presentations
+      - label: Reinforcement Learning
         level: 4
-      - label: Grant Proposals
+      - label: LLM / NLP
         level: 4
+  - name: Outils et pratiques
+    items:
+      - label: Git / Docker
+        level: 4
+      - label: Data pipeline (Pandas, NumPy)
+        level: 4
+      - label: Communication bilingue
+        level: 5
 
 languages:
-  - name: English
+  - name: Francais
     level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+    label: Langue maternelle
+  - name: Anglais
+    level: 5
+    label: Bilingue
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+awards: []

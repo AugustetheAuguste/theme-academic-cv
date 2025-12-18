@@ -1,11 +1,11 @@
 ---
-title: 'Experience'
+title: 'Expérience'
 date: 2023-10-24
 type: landing
 url: /experience/
 image:
   filename: og/experience.png
-  alt: "Apercu des experiences d'Auguste Doyet"
+  alt: "Aperçu des expériences d'Auguste Doyet"
 
 design:
   spacing: '4rem'
@@ -13,34 +13,44 @@ design:
 sections:
   - block: markdown
     content:
-      title: "Experiences professionnelles"
+      title: "Expériences professionnelles"
       text: |-
-        Parcours oriente IA/Data avec roles produit, experimentation et pedagogie. Focus impact : problemes traites, livrables crees et apprentissages concrets, avec renvois vers les projets quand disponibles.
+        ### Co-fondateur et lead produit IA
+        **FALC'On** | 2021 – 2024
+        Logiciel de traduction automatique orienté accessibilité (FALC). Définition produit, prototypage IA, coordination avec partenaires et démos clients.
+
+        ### Ambassadeur et intervenant
+        **Efrei Paris** | 2021 – 2024
+        Présentations publiques, ateliers d’initiation IA/data pour lycéens, accompagnement admissions et vulgarisation technique.
+
+        ### Stagiaire
+        **Westline Entreprise** | 2021 – 2021
+        Immersion en robotique/optoélectronique, respect des process qualité et documentation technique pour l’équipe.
+
+        ### Prof particulier
+        **Cours particuliers** | 2018 – 2024
+        Préparation bac et concours (maths/physique). Création de supports, vulgarisation et suivi individuel.
     design:
       columns: '1'
 
-  - block: markdown
+  - block: features
     content:
-      title: "Experience phare : FALC'On"
-      text: |-
-        - **Mission** : co-fondateur et lead produit IA pour une solution de traduction facile a lire.
-        - **Livrables** : prototypage LangChain/LLM, arbitrages fonctionnels, demos partenaires.
-        - **Impact** : boucle de retours utilisateurs et structuration des prochaines iterations.
-        [Projet associe RAG LangChain](/projets/rag-langchain-uqac/).
+      title: Compétences et outils
+      items:
+        - name: IA et Data
+          description: Python, PyTorch, TensorFlow, LangChain, OpenCV
+          icon: brain
+          icon_pack: fas
+        - name: Domaines
+          description: Vision par ordinateur, Reinforcement Learning, LLM, NLP
+          icon: robot
+          icon_pack: fas
+        - name: Outils et pratiques
+          description: Git, Docker, Pandas, NumPy, Communication bilingue
+          icon: tools
+          icon_pack: fas
     design:
-      columns: '1'
-
-  - block: resume-experience
-    content:
-      username: me
-    design:
-      date_format: 'January 2006'
-      is_education_first: false
-
-  - block: resume-skills
-    content:
-      title: Competences et outils
-      username: me
+      columns: '3'
 
   - block: resume-languages
     content:
@@ -50,7 +60,10 @@ sections:
   - block: markdown
     content:
       title: "Aller plus loin"
-      text: "[Voir les projets](/projets/) | [Telecharger le CV](/cv/) | [Formation](/formation/)"
+      text: |-
+        [Voir les projets](/projets/)  
+        [Télécharger le CV](/cv/)  
+        [Formation](/formation/)
     design:
       columns: '1'
 ---

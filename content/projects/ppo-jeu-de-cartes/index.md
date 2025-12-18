@@ -2,7 +2,7 @@
 title: "PPO pour jeu de cartes"
 slug: "ppo-jeu-de-cartes"
 date: 2024-08-20
-summary: "Entrainement d'un agent PPO sur un jeu de cartes simplifie, avec evaluation sur differentes strategies."
+summary: "Entraînement d'un agent PPO sur un jeu de cartes simplifié, avec évaluation sur différentes stratégies."
 featured: true
 tags:
   - Reinforcement Learning
@@ -11,7 +11,7 @@ tags:
   - Gym
 authors:
   - me
-role: "Experimentations reinforcement learning"
+role: "Expérimentations reinforcement learning"
 context: "Projet personnel pour tester PPO sur un environnement cartes"
 duration: "2 semaines"
 stack:
@@ -31,24 +31,24 @@ image:
 
 ## Contexte
 
-Tester PPO sur un environnement cartes pour explorer la generalisation et l'ajustement des hyperparametres.
+Tester PPO sur un environnement cartes pour explorer la généralisation et l'ajustement des hyperparamètres.
 
 ## Approche
 
-- Modele actor-critic avec clipping PPO.
-- Shaping des recompenses pour encourager la gestion du risque et du tempo.
-- Suivi tensorboard des rewards et de la longueur des episodes.
+- Modèle actor-critic avec clipping PPO.
+- Shaping des récompenses pour encourager la gestion du risque et du tempo.
+- Suivi TensorBoard des rewards et de la longueur des épisodes.
 
-## Resultats
+## Résultats
 
-- Politique stable apres quelques centaines de milliers d'etapes.
+- Politique stable après quelques centaines de milliers d'étapes.
 - Comparaison avec une baseline heuristique pour quantifier le gain.
-- Documentation des hyperparametres et scripts de relance.
+- Documentation des hyperparamètres et scripts de relance.
 
 ## Stack
 
 Python, PyTorch, Gym, TensorBoard.
 
-## Prochaines etapes
+## Prochaines étapes
 
-Renforcer l'exploration par des techniques de priorisation, comparer PPO a d'autres algorithmes et publier les courbes d'apprentissage. Les visuels et depots sont pour l'instant des placeholders : les chemins sont fixes pour integrer les assets definitifs.
+Renforcer l'exploration par des techniques de priorisation, comparer PPO à d'autres algorithmes et publier les courbes d'apprentissage. Les visuels et dépôts sont pour l'instant des placeholders : les chemins sont fixés pour intégrer les assets définitifs.

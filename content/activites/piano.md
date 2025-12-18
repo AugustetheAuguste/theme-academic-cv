@@ -4,8 +4,8 @@ date: 2021-01-01
 summary: "12 ans de pratique du piano et du jazz, travail collectif et discipline."
 tags:
   - Discipline
-  - Creativite
-  - Travail d'equipe
+  - Créativité
+  - Travail d'équipe
 categories:
   - Arts
 image:
@@ -15,14 +15,14 @@ image:
 
 ## Impact
 
-- Performances en groupe, coordination et ecoute active.
-- Progression continue grace a une pratique structuree.
+- Performances en groupe, coordination et écoute active.
+- Progression continue grâce à une pratique structurée.
 
 ## Ce que j'ai fait
 
-- Repertoires en trio/quatuor, mise en place de repetitions regulieres.
+- Répertoires en trio/quatuor, mise en place de répétitions régulières.
 - Travail de l'improvisation et de la rythmique collective.
 
-## Competences mobilisees
+## Compétences mobilisées
 
-Rigueur, creativite, collaboration. Les visuels sont en placeholder et seront remplaces par les photos finales.
+Rigueur, créativité, collaboration. Les visuels sont en placeholder et seront remplacés par les photos finales.

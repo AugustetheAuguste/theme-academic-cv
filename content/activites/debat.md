@@ -1,7 +1,7 @@
 ---
 title: "Jury English Debate"
 date: 2022-01-01
-summary: "Evaluation d'equipes en anglais sur la structure et la qualite argumentative."
+summary: "Évaluation d'équipes en anglais sur la structure et la qualité argumentative."
 tags:
   - Communication
   - Esprit critique
@@ -16,13 +16,13 @@ image:
 ## Impact
 
 - Analyse des argumentaires et restitution de feedbacks exploitables.
-- Garantie d'une evaluation equitable sur la forme et le fond.
+- Garantie d'une évaluation équitable sur la forme et le fond.
 
 ## Ce que j'ai fait
 
-- Evaluation des equipes en anglais, notation et retours verbaux.
-- Observation des styles de communication pour proposer des axes d'amelioration.
+- Évaluation des équipes en anglais, notation et retours verbaux.
+- Observation des styles de communication pour proposer des axes d'amélioration.
 
-## Competences mobilisees
+## Compétences mobilisées
 
-Communication bilingue, esprit critique, synthese rapide. Les visuels restent des placeholders en attendant les photos finales.
+Communication bilingue, esprit critique, synthèse rapide. Les visuels restent des placeholders en attendant les photos finales.

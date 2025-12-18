@@ -21,6 +21,7 @@ sections:
           - section
     design:
       view: article-grid
+      show_author: false
       show_read_time: false
       show_date: false
       show_read_more: false

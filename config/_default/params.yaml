@@ -6,7 +6,7 @@ hugoblox:
     organization: "Auguste Doyet"
     type: person
     tagline: "Data & IA - Vision, RL, LLM/RAG"
-    description: "Portfolio Data & IA d'Auguste Doyet : projets en vision, reinforcement learning et LLM/RAG, experiences, formation et CV."
+    description: "Portfolio Data & IA d'Auguste Doyet : projets en vision, reinforcement learning et LLM/RAG, expériences, formation et CV."
     social:
       twitter: ""
 
@@ -49,7 +49,7 @@ hugoblox:
     language_switcher: false
     cta:
       enable: true
-      text: "Telecharger le CV"
+      text: "Télécharger le CV"
       url: "/uploads/auguste-doyet-cv.pdf"
 
   footer:
@@ -58,7 +58,7 @@ hugoblox:
     text: "Contact : <a href=\"mailto:auguste.doyet@efrei.net\">auguste.doyet@efrei.net</a>"
 
   copyright:
-    notice: "(c) {year} {name}. Tous droits reserves."
+    notice: ""
     license:
       type: all_rights
       allow_derivatives: false
@@ -71,7 +71,7 @@ hugoblox:
       address:
         street: ""
         city: "Paris"
-        region: "France / Quebec"
+        region: "France / Québec"
         postal_code: ""
         country: "France"
       coordinates:

@@ -10,13 +10,13 @@ main:
   - name: Projets
     url: /projets/
     weight: 20
-  - name: Experience
+  - name: Expérience
     url: /experience/
     weight: 30
   - name: Formation
     url: /formation/
     weight: 40
-  - name: Activites
+  - name: Activités
     url: /activites/
     weight: 50
   - name: CV

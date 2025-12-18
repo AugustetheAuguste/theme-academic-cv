@@ -2,7 +2,7 @@
 title: "RAG LangChain pour documentation UQAC"
 slug: "rag-langchain-uqac"
 date: 2025-01-15
-summary: "Scraping du manuel UQAC et mise en place d'un RAG pour repondre aux questions internes, avec pipeline documente et reproductible."
+summary: "Scraping du manuel UQAC et mise en place d'un RAG pour répondre aux questions internes, avec pipeline documenté et reproductible."
 tags:
   - LLM/RAG
   - LangChain
@@ -12,8 +12,8 @@ tags:
 featured: true
 authors:
   - me
-role: "Developpement et integration RAG"
-context: "Projet academique oriente support interne"
+role: "Développement et intégration RAG"
+context: "Projet académique orienté support interne"
 duration: "2 semaines"
 stack:
   - Python
@@ -34,25 +34,25 @@ image:
 
 ## Contexte
 
-Creation d'un assistant pour naviguer dans la documentation UQAC. Objectif : repondre rapidement aux questions des etudiants et du personnel en capitalisant les ressources internes.
+Création d'un assistant pour naviguer dans la documentation UQAC. Objectif : répondre rapidement aux questions des étudiants et du personnel en capitalisant les ressources internes.
 
 ## Approche
 
-- Scraping cible des pages (manuel et FAQ) avec Selenium et nettoyage HTML.
+- Scraping ciblé des pages (manuel et FAQ) avec Selenium et nettoyage HTML.
 - Vectorisation des passages et indexation dans une base vectorielle.
-- Pipeline LangChain pour retrieval + generation, avec garde-fous sur la pertinence.
-- Evaluation rapide sur des jeux de questions internes et ajustements de seuils.
+- Pipeline LangChain pour retrieval + génération, avec garde-fous sur la pertinence.
+- Évaluation rapide sur des jeux de questions internes et ajustements de seuils.
 
-## Resultats
+## Résultats
 
-- Reponses contextualisees en quelques secondes, avec citations des sources.
+- Réponses contextualisées en quelques secondes, avec citations des sources.
 - Structure modulable pour ajouter de nouvelles ressources (PDF/HTML) sans refonte.
-- Documentation du flux (scraping -> index -> chaines) pour transfert equipe.
+- Documentation du flux (scraping -> index -> chaînes) pour transfert équipe.
 
 ## Stack
 
-Python, LangChain, Selenium, Vector DB, evaluation manuelle sur jeux de questions internes.
+Python, LangChain, Selenium, Vector DB, évaluation manuelle sur jeux de questions internes.
 
-## Prochaines etapes
+## Prochaines étapes
 
-Brancher une authentification simple, suivre les retours utilisateurs et industrialiser le monitoring des reponses. Les assets visuels et depots sont en placeholder : chemins et slugs sont fixes pour accueillir les versions finales.
+Intégrer une authentification simple, suivre les retours utilisateurs et industrialiser le monitoring des réponses. Les assets visuels et dépôts sont en placeholder : chemins et slugs sont fixés pour accueillir les versions finales.

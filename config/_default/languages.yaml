@@ -2,9 +2,9 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
-# Langue par defaut
+# Langue par défaut
 fr:
   languageCode: fr-fr
   title: "Auguste Doyet | Portfolio Data & IA"
   params:
-    description: "Portfolio Data & IA d'Auguste Doyet : projets en vision, reinforcement learning et LLM/RAG, experiences, formation et CV."
+    description: "Portfolio Data & IA d'Auguste Doyet : projets en vision, reinforcement learning et LLM/RAG, expériences, formation et CV."

@@ -2,7 +2,7 @@
 title: "Reconnaissance faciale avec FaceNet"
 slug: "facenet-reconnaissance-faciale"
 date: 2024-12-01
-summary: "Pipeline de verification d'identite base sur FaceNet et OpenCV, documente et pret a etre rebranche sur des flux video."
+summary: "Pipeline de vérification d'identité basé sur FaceNet et OpenCV, documenté et prêt à être rebranché sur des flux vidéo."
 tags:
   - Vision
   - OpenCV
@@ -11,8 +11,8 @@ tags:
 featured: true
 authors:
   - me
-role: "Developpement vision par ordinateur"
-context: "Prototype demonstration securite"
+role: "Développement vision par ordinateur"
+context: "Prototype démonstration sécurité"
 duration: "3 semaines"
 stack:
   - Python
@@ -26,29 +26,29 @@ links:
     url: ""
 image:
   filename: /img/projects/facenet-reconnaissance-faciale/cover.png
-  alt: "Placeholder pour la verification faciale avec FaceNet"
+  alt: "Placeholder pour la vérification faciale avec FaceNet"
 ---
 
 ## Contexte
 
-Prototype de verification d'identite a partir d'images. Objectif : offrir une demo claire et reproductible pour des cas d'usage securite ou controle d'acces.
+Prototype de vérification d'identité à partir d'images. Objectif : offrir une démo claire et reproductible pour des cas d'usage sécurité ou contrôle d'accès.
 
 ## Approche
 
-- Pretraitement OpenCV (alignement visage, detection des landmarks).
+- Prétraitement OpenCV (alignement visage, détection des landmarks).
 - Extraction d'embeddings avec FaceNet et comparaison de distance.
-- Calibration d'un seuil de similarite et evaluation sur echantillons de tests.
+- Calibration d'un seuil de similarité et évaluation sur échantillons de tests.
 
-## Resultats
+## Résultats
 
-- Verification robuste sur jeux de tests internes.
-- Explicabilite minimale via visualisation des matches et distances.
-- Tutoriel d'utilisation pour rejouer les experiments.
+- Vérification robuste sur jeux de tests internes.
+- Explicabilité minimale via visualisation des matches et distances.
+- Tutoriel d'utilisation pour rejouer les expériences.
 
 ## Stack
 
 Python, FaceNet, OpenCV, NumPy.
 
-## Prochaines etapes
+## Prochaines étapes
 
-Integre un module de gestion utilisateurs, collecter des jeux de tests plus varies et brancher une supervision du drift. Les visuels et liens sont en placeholder : la structure de dossiers est deja stabilisee pour ajout d'assets reels.
+Intégrer un module de gestion utilisateurs, collecter des jeux de tests plus variés et brancher une supervision du drift. Les visuels et liens sont en placeholder : la structure de dossiers est déjà stabilisée pour ajout d'assets réels.

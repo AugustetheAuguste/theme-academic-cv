@@ -13,7 +13,7 @@ sections:
   - block: resume-biography-3
     content:
       username: me
-      text: "Etudiant en double diplome UQAC/Efrei entre Paris et Chicoutimi. Portfolio Data & IA oriente preuves (vision, reinforcement learning, LLM/RAG) avec CTAs clairs vers les projets et le CV."
+      text: "Étudiant en double diplôme UQAC/Efrei entre Paris et Chicoutimi. Portfolio Data & IA orienté preuves (vision, reinforcement learning, LLM/RAG) avec CTAs clairs vers les projets et le CV."
       button:
         text: "Voir les projets"
         url: /projets/
@@ -34,21 +34,10 @@ sections:
         size: medium
         shape: circle
 
-  - block: markdown
-    content:
-      title: "Preuves rapides"
-      text: |-
-        - **Domaines** : vision par ordinateur, reinforcement learning, LLM/RAG, audio/NLP.
-        - **Formation** : double diplome UQAC (IA) et Efrei (Data & IA), semestre international en Malaisie.
-        - **Entrepreneuriat** : co-fondateur FALC'On (solution IA de traduction facile a lire).
-        - **Livrables** : demos documentees, pipelines Python reproductibles, communication bilingue.
-    design:
-      columns: '1'
-
   - block: collection
     content:
       title: Projets phares
-      text: "Cartes cliquables vers les projets phares (selection automatique via le flag featured)."
+      text: "Cartes cliquables vers les projets phares (sélection automatique via le flag featured)."
       filters:
         folders:
           - projects
@@ -56,30 +45,34 @@ sections:
     design:
       view: article-grid
       columns: 3
+      show_author: false
       show_date: false
       show_read_time: false
       show_read_more: true
 
   - block: markdown
     content:
-      title: "Experience snapshot"
+      title: "Expérience snapshot"
       text: |-
-        - **FALC'On (co-fondateur)** : produit IA pour la traduction facile a lire, prototypage LangChain/LLM, demos partenaires.
-        - **Ambassadeur Efrei** : ateliers IA/Data, prise de parole, accompagnement etudiants.
-        - **Westline** : immersion robotique/optoelectronique et documentation technique.
-        - **Prof particulier** : pedagogie sciences, structuration des supports.
-        [Voir le detail des experiences](/experience/).
+        - **FALC'On (co-fondateur)** : produit IA pour la traduction facile à lire, prototypage LangChain/LLM, démos partenaires.
+        - **Ambassadeur Efrei** : ateliers IA/Data, prise de parole, accompagnement étudiants.
+        - **Westline** : immersion robotique/optoélectronique et documentation technique.
+        - **Prof particulier** : pédagogie sciences, structuration des supports.
+
+        [Voir le détail des expériences](/experience/)
     design:
       columns: '1'
 
   - block: markdown
     content:
-      title: "Competences et domaines"
+      title: "Compétences et domaines"
       text: |-
         - **Techniques** : Python, PyTorch/TensorFlow, OpenCV, LangChain, pipelines data (Pandas/NumPy), Git/Docker.
-        - **Domaines** : vision, RL (DQN, PPO), LLM/RAG orientes documents internes.
-        - **Pratiques** : demos rapides, documentation, communication bilingue.
-        [Parcourir les projets](/projets/) | [Consulter le CV](/cv/).
+        - **Domaines** : vision, RL (DQN, PPO), LLM/RAG orientés documents internes.
+        - **Pratiques** : démos rapides, documentation, communication bilingue.
+
+        [Parcourir les projets](/projets/)  
+        [Consulter le CV](/cv/)
     design:
       columns: '1'
 
@@ -87,22 +80,24 @@ sections:
     content:
       title: "Formation en bref"
       text: |-
-        - **UQAC** : maitrise IA (en cours) oriente deep learning, vision, RL, LLM/RAG.
+        - **UQAC** : maîtrise IA (en cours) orienté deep learning, vision, RL, LLM/RAG.
         - **Efrei** : master Data & IA, socle logiciel + projets data/ML.
         - **APU (Malaisie)** : ouverture internationale et collaboration multiculturelle.
-        - **Bac OIB** : rigueur academique bilingue.
-        [Voir la formation](/formation/).
+        - **Bac OIB** : rigueur académique bilingue.
+
+        [Voir la formation](/formation/)
     design:
       columns: '1'
 
   - block: markdown
     content:
-      title: "Activites & leadership"
+      title: "Activités & leadership"
       text: |-
-        - **Leadership** : president association theatre (organisation de spectacles, ateliers d'impro).
-        - **Communication** : jury English Debate (evaluation fond/forme).
+        - **Leadership** : président association théâtre (organisation de spectacles, ateliers d'impro).
+        - **Communication** : jury English Debate (évaluation fond/forme).
         - **Arts & sport** : piano/jazz depuis 12 ans, rock acrobatique et transmission.
-        [Decouvrir les activites](/activites/).
+
+        [Découvrir les activités](/activites/)
     design:
       columns: '1'
 
@@ -110,7 +105,7 @@ sections:
     content:
       title: "Contact rapide"
       text: |-
-        Pour toute opportunite ou question : [auguste.doyet@efrei.net](mailto:auguste.doyet@efrei.net). Les liens GitHub et LinkedIn seront ajoutes ici des que disponibles.
+        Pour toute opportunité ou question : [auguste.doyet@efrei.net](mailto:auguste.doyet@efrei.net).
     design:
       columns: '1'
 ---

@@ -1,0 +1,35 @@
+schema: hugoblox/author/v1
+slug: formation
+is_owner: false
+name:
+  display: Auguste Doyet
+role: Étudiant Data & IA (UQAC & Efrei)
+
+education:
+  - degree: Maîtrise en Informatique (IA) - double diplôme
+    institution: Université du Québec à Chicoutimi (UQAC)
+    start: 2024-09-01
+    end: ''
+    summary: |
+      Parcours intensif orienté IA appliquée : deep learning, vision, reinforcement learning,
+      LLM/RAG et expérimentation avancée.
+  - degree: Master Data et IA
+    institution: Efrei Paris
+    start: 2020-09-01
+    end: 2024-09-01
+    summary: |
+      Formation ingénieur avec socle logiciel, data science et IA. Projets en traitement de
+      données, machine learning et MLOps.
+  - degree: Semestre international
+    institution: Asia Pacific University (Malaisie)
+    start: 2022-01-01
+    end: 2022-06-30
+    summary: |
+      Mobilité internationale en anglais : travail en équipe multiculturelle, autonomie et
+      communication.
+  - degree: Baccalauréat OIB section américaine - mention Très Bien
+    institution: Lycée International L'Ermitage
+    start: 2019-09-01
+    end: 2020-06-30
+    summary: |
+      Programme bilingue exigeant, culture académique internationale et rigueur.

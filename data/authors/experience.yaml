@@ -1,0 +1,39 @@
+schema: hugoblox/author/v1
+slug: experience
+is_owner: false
+name:
+  display: Auguste Doyet
+role: Étudiant Data & IA (UQAC & Efrei)
+
+experience:
+  - role: Co-fondateur et lead produit IA
+    org: FALC'On
+    start: 2021-01-01
+    end: 2024-06-30
+    summary: |
+      Logiciel de traduction automatique orienté accessibilité (FALC).
+      - **Mission** : co-fondateur et lead produit IA.
+      - **Livrables** : prototypage LangChain/LLM, arbitrages fonctionnels, démos partenaires.
+      - **Impact** : boucle de retours utilisateurs et structuration des prochaines itérations.
+      [Projet associé RAG LangChain](/projets/rag-langchain-uqac/).
+  - role: Ambassadeur et intervenant
+    org: Efrei Paris
+    start: 2021-09-01
+    end: 2024-06-30
+    summary: |
+      Présentations publiques, ateliers d'initiation IA/data pour lycéens, accompagnement
+      admissions et vulgarisation technique.
+  - role: Stagiaire
+    org: Westline Entreprise
+    start: 2021-06-01
+    end: 2021-08-31
+    summary: |
+      Immersion en robotique/optoélectronique, respect des process qualité et documentation
+      technique pour l'équipe.
+  - role: Prof particulier
+    org: Cours particuliers
+    start: 2018-09-01
+    end: 2024-06-30
+    summary: |
+      Préparation bac et concours (maths/physique). Création de supports, vulgarisation et
+      suivi individuel.

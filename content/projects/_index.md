@@ -15,7 +15,7 @@ sections:
   - block: collection
     content:
       title: Projets phares
-      text: "Sélection rapide pour comprendre les sujets majeurs. Les projets phares restent visibles ci-dessous pour conserver le contexte complet."
+      text: "Sélection rapide pour comprendre les sujets majeurs."
       count: 3
       filters:
         folders:
@@ -29,6 +29,22 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: true
+
+  - block: collection
+    content:
+      title: Liste complète
+      filters:
+        folders:
+          - projects
+    design:
+      view: article-grid
+      fill_image: false
+      columns: 3
+      show_author: false
+      show_date: false
+      show_read_time: false
+      show_read_more: true
+
   - block: markdown
     content:
       title: "Envie d'en voir plus ?"

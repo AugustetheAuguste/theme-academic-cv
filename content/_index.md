@@ -17,9 +17,11 @@ sections:
       button:
         text: "Voir les projets"
         url: /projets/
+        icon: ''
       button_alt:
         text: "Consulter le CV"
         url: /cv/
+        icon: ''
       headings:
         about: ''
         education: ''
@@ -29,7 +31,7 @@ sections:
         gradient_mesh:
           enable: true
       name:
-        size: lg
+        size: 3xl
       avatar:
         size: medium
         shape: circle

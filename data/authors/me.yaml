@@ -5,16 +5,14 @@ name:
   display: Auguste Doyet
   given: Auguste
   family: Doyet
-  alternate: ''
-  pronunciation: ''
-  pronouns: he/him
-postnominals: []
 status:
-  icon: ''
-role: Étudiant Data & IA (UQAC & Efrei)
+  pronunciation: ''
+postnominals: []
 bio: |
-  Étudiant en double diplôme UQAC / Efrei, spécialisé en IA appliquée. Je construis des
+  icon: ''
   prototypes concrets en vision par ordinateur, reinforcement learning et LLM/RAG pour
+role: Étudiant Data & IA (UQAC & Efrei)
+  Étudiant en double diplôme UQAC / Efrei, spécialisé en IA appliquée. Je construis des
   répondre à des problématiques complexes.
 
 affiliations:
@@ -32,67 +30,61 @@ links:
   - icon: brands/github
     url: https://github.com/AugustetheAuguste
 
-interests:
-  - Vision par ordinateur
-  - Reinforcement Learning
-  - LLM / RAG
-  - Audio et NLP
-
 education:
   - degree: Maîtrise en Informatique (IA) - double diplôme
     institution: Université du Québec à Chicoutimi (UQAC)
-    start: 2024-09-01
+    start: '2025'
     end: ''
     summary: |
       Parcours intensif orienté IA appliquée : deep learning, vision, reinforcement learning,
       LLM/RAG et expérimentation avancée.
   - degree: Master Data et IA
     institution: Efrei Paris
-    start: 2020-09-01
-    end: 2024-09-01
+    start: '2020'
+    end: 2024-09
     summary: |
       Formation ingénieur avec socle logiciel, data science et IA. Projets en traitement de
       données, machine learning et MLOps.
   - degree: Semestre international
     institution: Asia Pacific University (Malaisie)
-    start: 2022-01-01
-    end: 2022-06-30
+    start: 2022-01
+    end: ''
     summary: |
       Mobilité internationale en anglais : travail en équipe multiculturelle, autonomie et
       communication.
   - degree: Baccalauréat OIB section américaine - mention Très Bien
     institution: Lycée International L'Ermitage
-    start: 2019-09-01
-    end: 2020-06-30
+    start: 2019-09
+    end: 2020-06
     summary: |
       Programme bilingue exigeant, culture académique internationale et rigueur.
 
 experience:
   - role: Co-fondateur et lead produit IA
     org: FALC'On
-    start: 2021-01-01
-    end: 2024-06-30
+    start: 2021-01
+    end: 2024-06
     summary: |
       Logiciel de traduction automatique orienté accessibilité (FALC). Définition produit,
       prototypage IA, coordination avec partenaires et démos clients.
   - role: Ambassadeur et intervenant
     org: Efrei Paris
-    start: 2021-09-01
-    end: 2024-06-30
+    start: 2021-09
+    end: 2024-06
     summary: |
       Présentations publiques, ateliers d'initiation IA/data pour lycéens, accompagnement
       admissions et vulgarisation technique.
   - role: Stagiaire
     org: Westline Entreprise
-    start: 2021-06-01
-    end: 2021-08-31
+    start: 2021-06
+    end: 2021-08
     summary: |
       Immersion en robotique/optoélectronique, respect des process qualité et documentation
       technique pour l'équipe.
   - role: Prof particulier
     org: Cours particuliers
-    start: 2018-09-01
-    end: 2024-06-30
+    start: 2018-09
+    end: 2024-06
     summary: |
       Préparation bac et concours (maths/physique). Création de supports, vulgarisation et
       suivi individuel.

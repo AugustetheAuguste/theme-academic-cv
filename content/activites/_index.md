@@ -25,14 +25,6 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: true
-
-  - block: markdown
-    content:
-      title: "Envie d'en voir plus ?"
-      text: |-
-        [Projets](/projets/)  
-        [Expérience pro](/experience/)  
-        [Télécharger le CV](/cv/)
     design:
       columns: '1'
 ---

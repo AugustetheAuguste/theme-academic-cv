@@ -25,13 +25,12 @@ sections:
       headings:
         about: ''
         education: ''
-        interests: ''
     design:
       background:
         gradient_mesh:
           enable: true
       name:
-        size: 3xl
+        size: 4xl
       avatar:
         size: medium
         shape: circle
@@ -52,56 +51,68 @@ sections:
       show_read_time: false
       show_read_more: true
 
-  - block: markdown
+  - block: features
     content:
-      title: "Expérience snapshot"
-      text: |-
-        - **FALC'On (co-fondateur)** : produit IA pour la traduction facile à lire, prototypage LangChain/LLM, démos partenaires.
-        - **Ambassadeur Efrei** : ateliers IA/Data, prise de parole, accompagnement étudiants.
-        - **Westline** : immersion robotique/optoélectronique et documentation technique.
-        - **Prof particulier** : pédagogie sciences, structuration des supports.
-
-        [Voir le détail des expériences](/experience/)
+      title: Expérience snapshot
+      text: "Parcours construit sur la pratique : de la co-création produit IA à l'enseignement, en passant par l'industrie."
+      items:
+        - name: FALC'On
+          description: Co-fondateur — Produit IA pour traduction accessible (LangChain/LLM), prototypage & démos clients.
+          icon: star
+        - name: Ambassadeur Efrei
+          description: Ateliers IA/Data, jury English Debate, accompagnement et vulgarisation technique.
+          icon: users
+        - name: Westline
+          description: Stage robotique/optoélectronique en contexte industriel, documentation & qualité.
+          icon: cog
+        - name: Prof particulier
+          description: 6 ans de pédagogie active maths/physique. Supports progressifs, clarté, suivi.
+          icon: book
+      button:
+        text: Voir le détail
+        url: /experience/
     design:
-      columns: '1'
+      columns: '2'
 
-  - block: markdown
+  - block: features
     content:
-      title: "Compétences et domaines"
-      text: |-
-        - **Techniques** : Python, PyTorch/TensorFlow, OpenCV, LangChain, pipelines data (Pandas/NumPy), Git/Docker.
-        - **Domaines** : vision, RL (DQN, PPO), LLM/RAG orientés documents internes.
-        - **Pratiques** : démos rapides, documentation, communication bilingue.
-
-        [Parcourir les projets](/projets/)  
-        [Consulter le CV](/cv/)
+      title: Compétences & domaines
+      text: "Stack complète IA appliquée : vision, apprentissage par renforcement, LLM/RAG."
+      items:
+        - name: Techniques
+          description: Python • PyTorch/TensorFlow • OpenCV • LangChain • Pandas/NumPy • Git/Docker
+          icon: code
+        - name: Domaines
+          description: Vision par ordinateur • Reinforcement Learning (DQN, PPO) • LLM/RAG documents
+          icon: brain
+        - name: Pratiques
+          description: Démos rapides • Documentation claire • Communication bilingue FR/EN
+          icon: presentation
+      button:
+        text: Explorer les projets
+        url: /projets/
     design:
-      columns: '1'
+      columns: '3'
 
-  - block: markdown
+  - block: features
     content:
-      title: "Formation en bref"
-      text: |-
-        - **UQAC** : maîtrise IA (en cours) orienté deep learning, vision, RL, LLM/RAG.
-        - **Efrei** : master Data & IA, socle logiciel + projets data/ML.
-        - **APU (Malaisie)** : ouverture internationale et collaboration multiculturelle.
-        - **Bac OIB** : rigueur académique bilingue.
-
-        [Voir la formation](/formation/)
+      title: Activités & leadership
+      text: "Au-delà du code : arts, leadership et transmission."
+      items:
+        - name: Leadership
+          description: Président association théâtre — spectacles, ateliers d'impro, gestion d'équipe.
+          icon: star
+        - name: Communication
+          description: Jury English Debate — évaluation fond/forme, partage d'expertise.
+          icon: chat
+        - name: Arts & sport
+          description: Piano/jazz (12 ans) • Rock acrobatique • Transmission et créativité.
+          icon: music
+      button:
+        text: Découvrir
+        url: /activites/
     design:
-      columns: '1'
-
-  - block: markdown
-    content:
-      title: "Activités & leadership"
-      text: |-
-        - **Leadership** : président association théâtre (organisation de spectacles, ateliers d'impro).
-        - **Communication** : jury English Debate (évaluation fond/forme).
-        - **Arts & sport** : piano/jazz depuis 12 ans, rock acrobatique et transmission.
-
-        [Découvrir les activités](/activites/)
-    design:
-      columns: '1'
+      columns: '3'
 
   - block: markdown
     content:

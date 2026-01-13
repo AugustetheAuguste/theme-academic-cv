@@ -59,14 +59,4 @@ sections:
     content:
       title: Langues
       username: me
-
-  - block: markdown
-    content:
-      title: "Aller plus loin"
-      text: |-
-        [Voir les projets](/projets/)  
-        [Télécharger le CV](/cv/)  
-        [Formation](/formation/)
-    design:
-      columns: '1'
 ---
